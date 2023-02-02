@@ -41,12 +41,12 @@ Rayfield:Notify({
 })
 
 -- pls donate
- local PlsDonateTab = Window:CreateTab("Doors", 11347112419)
+ local PlsDonateTab = Window:CreateTab("Pls Donate", 11347112419)
  local PlsDonateSection = PlsDonateTab:CreateSection("Scripts")
  local OPplsdonate = PlsDonateTab:CreateButton({
      Name = "Pls donate auto beg + more (OP)",
      Callback = function()
-      loadstring(game:HttpGet("https://raw.githubusercontent.com/sinret/rbxscript.com-scripts-reuploads-/main/pd1", true))()
+      loadstring(game:HttpGet('https://raw.githubusercontent.com/sinret/rbxscript.com-scripts-reuploads-/main/pd1'))()
      end,
  })
 
